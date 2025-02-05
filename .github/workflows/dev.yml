@@ -20,7 +20,5 @@ jobs:
                   username: ${{ secrets.FTP_USERNAME }}
                   password: ${{ secrets.FTP_PASSWORD }}
                   server-dir: /allyapp/
-                  local-dir: .
-                  exclude: .git*
                   fail-on-fatal: true
       
